@@ -1,0 +1,4 @@
+{
+    "pipeline": ["path"],
+    "path": ".gitignore"
+}
