@@ -18,6 +18,7 @@ clean:
 	rm -f *.zip
 
 install: $(BUILD)
+	@mkdir -p $(dir $@) 2>/dev/null || true
 	cp $(BUILD) $(HOME)/.mkproject/assets/$(BUILD)
 
 dirs:
