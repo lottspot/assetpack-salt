@@ -11,7 +11,7 @@ data: $(DATA)
 meta: $(META)
 
 %.json:
-	mkdir -p $(dir $@) 2>/dev/null || true
+	@mkdir -p $(dir $@) 2>/dev/null || true
 	echo '{}' > $@
 
 clean:
