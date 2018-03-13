@@ -1,4 +1,13 @@
 # assetpack-salt
 
-Asset pack for `mkproject` to create scaffolding for a new SaltStack
-formula project.
+## Quick Start
+
+```
+make install
+```
+
+## Build Dependencies
+
+- `find`
+- `zip`
+
